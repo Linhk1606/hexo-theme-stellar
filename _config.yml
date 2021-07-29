@@ -19,10 +19,9 @@ sidebar:
     avatar: '[config.avatar](/about/)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
     title: '[config.title](/)' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
   menu:
-    post: # '[btn.blog](/)'
-    wiki: # '[btn.wiki](/wiki/)'
-    friends: # '[友链](/friends/)'
-    about: # '[关于](/about/)'
+    post: '[btn.blog](/)'
+    friends: '[友链](/friends/)'
+    about: '[关于](/about/)'
   # Sidebar widgets
   widgets:
     # default layout in home/wiki/categories/tags/archives pages
@@ -125,18 +124,18 @@ comments:
 ######## Footer ########
 footer:
   social:
-    # - title: RSS
-    #   icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/25678f144c438.svg"/>'
-    #   url: /atom.xml
-    # - title: GitHub
-    #   icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/08a41b181ce68.svg"/>'
-    #   url: /
-    # - title: Music
-    #   icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/cf1ae151f9e83.svg"/>'
-    #   url: /
-    # - title: Comments
-    #   icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/942ebbf1a4b91.svg"/>'
-    #   url: /
+    - title: 订阅
+      icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/25678f144c438.svg"/>'
+      url: /atom.xml
+    - title: GitHub
+      icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/08a41b181ce68.svg"/>'
+      url: https://github.com/Linhk1606
+    - title: 网易云音乐
+      icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/cf1ae151f9e83.svg"/>'
+      url: https://music.163.com/#/user/home?id=2113078436
+    - title: 留言版
+      icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/942ebbf1a4b91.svg"/>'
+      url: /
   sitemap:
     # '博客':
     #   - '[近期](/)'
@@ -156,17 +155,17 @@ footer:
     #   - '[GitHub](/)'
     #   - '[GitLab](/)'
   license: '[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)'
-  source: #'[GitHub](https://github.com/xaoxuu/hexo-theme-stellar)'
+  source: '[GitHub](https://github.com/xaoxuu/hexo-theme-stellar)'
 
 
 ######## Tag Plugins ########
 tag_plugins:
   # {% note text %}
   note:
-    default_color: '' # light, dark, red, orange, yellow, green, cyan, blue, purple
+    default_color: 'purple' # light, dark, red, orange, yellow, green, cyan, blue, purple
   # {% checkbox %}
   checkbox:
-    interactive: false # enable interactive for user
+    interactive: true # enable interactive for user
 
 
 ######## JS Plugins ########
